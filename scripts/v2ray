@@ -1,6 +1,6 @@
 #!/bin/bash
-# EDIT: @kiritossh
-# github: https://github.com/Jrohy/multi-v2ray
+# Edit by: @NEXYSSH
+# Telegram: https://t.me/nexyssh
 
 #定时任务北京执行时间(0~23)
 BEIJING_UPDATE_TIME=3
@@ -18,7 +18,7 @@ REMOVE=0
 
 CHINESE=0
 
-BASE_SOURCE_PATH="https://multi.netlify.app"
+BASE_SOURCE_PATH="https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/script/tools/v2ray"
 
 UTIL_PATH="/etc/v2ray_util/util.cfg"
 
@@ -82,12 +82,12 @@ help(){
 
 removeV2Ray() {
     #卸载V2ray脚本
-    bash <(curl -L -s https://multi.netlify.app/go.sh) --remove >/dev/null 2>&1
+    bash <(curl -L -s https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/script/tools/v2ray/go.sh) --remove >/dev/null 2>&1
     rm -rf /etc/v2ray >/dev/null 2>&1
     rm -rf /var/log/v2ray >/dev/null 2>&1
 
     #卸载Xray脚本
-    bash <(curl -L -s https://multi.netlify.app/go.sh) --remove -x >/dev/null 2>&1
+    bash <(curl -L -s https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/script/tools/v2ray/go.sh) --remove -x >/dev/null 2>&1
     rm -rf /etc/xray >/dev/null 2>&1
     rm -rf /var/log/xray >/dev/null 2>&1
 
@@ -156,7 +156,7 @@ installDependent(){
     fi
 
     #install python3 & pip
-    source <(curl -sL https://python3.netlify.app/install.sh)
+    source <(curl -sL https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/script/tools/v2ray/install.sh)
 }
 
 updateProject() {
@@ -191,7 +191,7 @@ updateProject() {
     fi
     
     #安装V2ray主程序
-    [[ ${INSTALL_WAY} == 0 ]] && bash <(curl -L -s https://multi.netlify.app/go.sh)
+    [[ ${INSTALL_WAY} == 0 ]] && bash <(curl -L -s https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/script/tools/v2ray/go.sh)
 }
 
 #时间同步
