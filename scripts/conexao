@@ -2130,7 +2130,8 @@ exit 0' >$RCLOCAL
 				slow_dns
 				;;
 		    10 | 10)
-				v2raymanager
+				fun_v2rayins
+				exit;
 				;;                
 			11 | 11)
 				menu
