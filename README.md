@@ -16,3 +16,4 @@ Lembre-se que o V2RAY e TROJAN-GO está em desenvolvimento, então fique ciente 
 - TLS: 443
 - V2RAY: 8080
 - TROJAN-GO: 591 (porta padrão para não haver conflito com websocket/v2ray)
+
