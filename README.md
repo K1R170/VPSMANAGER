@@ -7,6 +7,6 @@
 
 `wget https://raw.githubusercontent.com/nexyssh/VPSMANAGER-FULL/master/senharoot.sh; chmod 777 senharoot.sh; ./senharoot.sh`
 
-# Atenção ao v2ray
+# Atenção ao v2ray e trojan-go
 
-Lembre-se que o V2RAY está em desenvolvimento, então fique ciente dos riscos de bugs. Recomendo instalar em Ubunbu 18.04 para o melhor funcionamento.
+Lembre-se que o V2RAY e TROJAN-GO está em desenvolvimento, então fique ciente dos riscos de bugs. Recomendo instalar em Ubunbu 18.04 para o melhor funcionamento.
