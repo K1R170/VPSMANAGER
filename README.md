@@ -17,3 +17,5 @@ Lembre-se que o V2RAY e TROJAN-GO está em desenvolvimento, então fique ciente 
 - V2RAY: 8080
 - TROJAN-GO: 8000 (porta padrão para não haver conflito com websocket/v2ray)
 
+# Créditos ao desenvolvedor principal:
+- @crazy_vpn sshplus
